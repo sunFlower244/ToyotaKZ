@@ -1,0 +1,59 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body{
+    background: url(https://img.freepik.com/free-photo/solid-concrete-wall-textured-backdrop_53876-129493.jpg?w=2000&t=st=1671367536~exp=1671368136~hmac=15a939725f031a265a8ebda45aff4b8da2450eb54183097f62383bce78e20282);
+    background-size: cover;
+  }
+  
+  li,a{
+    font-size: 26px;
+     color: rgb(255, 253, 253);
+     text-decoration: none;
+     font-family: 'Kaushan Script', cursive;
+     font-family: 'Roboto', sans-serif;
+     
+  }
+  
+  
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px  4%;
+  
+  }
+  .navlinks{
+    list-style: none;
+  
+  }
+  .navlinks li{
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  
+  button{
+    padding:8px 20px;
+    background-color: darkred;
+    border: none;
+    border-radius: 20px;
+    margin-left: 25px;
+    font-size: 26px;
+    text-decoration: none;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Roboto', sans-serif;
+  
+  
+  }
+  
+  button:hover{
+    background-color: rgb(72, 0, 0);
+  }
+  .logo{
+    margin-right: auto;
+  }
