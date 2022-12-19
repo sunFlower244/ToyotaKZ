@@ -12,9 +12,9 @@
         <h1 class="logo"><img src="https://cdn.freebiesupply.com/logos/thumbs/2x/toyota-1-logo.png" width="200"></h1>
       <nav>
         <ul class="navlinks">
-          <li><a href = "#">Toyota USA</a></li>
-          <li><a href = "#">Toyota RU</a></li>
-          <li><a href = "#">Toyota EU</a></li>
+          <li><a href = "#">TOYOTA USA</a></li>
+          <li><a href = "#">TOYOTA RU</a></li>
+          <li><a href = "#">TOYOTA EU</a></li>
         </ul>
         
       </nav>
@@ -25,9 +25,17 @@
     <div>
 
   
-        <video autoplay muted loop id="myVideo">
-          <source src="CAMRY_1920_796.mp4" type="video/mp4">      
-        </video>
+      <div class="video">
+        <video src="CAMRY_1920_796.mp4" class="sli" autoplay loop muted ></video>
+
+        <ul>
+            <li onclick="nextvideo('CAMRY_1920_796.mp4')"><video src="CAMRY_1920_796.mp4"></video></li>
+            <li onclick="nextvideo('1_rav4_1920_796.mp4')"><video src="1_rav4_1920_796.mp4"></video></li>
+            <li onclick="nextvideo('MUL_MY22_DSE_LikeNoOnesWatching_TCOM_Desktop_Non_New_ENG_08_DynamicContent_TYES1779000H-2.mp4')"><video src="MUL_MY22_DSE_LikeNoOnesWatching_TCOM_Desktop_Non_New_ENG_08_DynamicContent_TYES1779000H-2.mp4"></video></li>
+            <li onclick="nextvideo('TUNDRA_1920_796.mp4')"><video src="TUNDRA_1920_796.mp4"></video></li>
+            
+        </ul>
+    </div>
   
         <div class="lastcontent">
           
@@ -41,7 +49,16 @@
   
           <a href="http://localhost:8886/2.php" target="_blank" class="ref">Sign in</a>
       </div>
-    </div>   
+    </div>
+    
+    
+    <script>
+
+      function nextvideo(links){
+          document.querySelector(".sli").src = links;
+      }
+  
+  </script>
     
 </body>
 </html>
