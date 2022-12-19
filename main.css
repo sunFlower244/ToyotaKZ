@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+body {
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(120deg, #fff 75%, #e01533 25%);
+	font-family: 'PT Sans', sans-serif;
+}
+
+
+
+.navigation {
+	z-index: 20;
+	width: 100%;
+	top: 3%;
+	position: absolute;
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	width: 15%;
+	display: flex;
+	align-items: center;
+}
+
+.logotype {
+	max-width: 100px;
+	margin-left: 50%;
+}
+
+.nav-menu {
+	width: 20%;
+}
+
+.menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	width: 100%;
+}
+
+.nav-item {
+	padding: 0 10px;
+}
+
+.nav-link {
+	text-decoration: none;
+	color: #e01533;
+	font-size: 16px;
+	border-bottom: 2px solid transparent;
+	transition: .3s;
+	font-weight: bold;
+}
+
+.nav-link:hover {
+	border-bottom: 2px solid #e01533;
+}
+
+.search-block {
+	width: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.searsh {
+	display: flex;
+	background-color: #fff;
+	border: 2px solid #e01533;
+	border-radius: 30px;
+	width: 50%;
+	z-index: 1;
+}
+
+.search-form {
+	padding-left: 5%;
+	width: 90%;
+	height: 25px;
+	z-index: 10;
+	border-radius: 30px;
+	border: none;
+	outline: none;
+	font-weight: bold;
+	color: #6f6f6f;
+}
+
+.search-btn {
+	color: #e01533;
+	font-size: 17px;
+	width: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+}
+
+.personal-item {
+	width: 15%;
+}
+
+.auth {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.auth-link {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #6f6f6f;
+	text-decoration: none;
+	font-weight: bold;	
+	font-size: 16px;
+	transition: .3s;
+}
+
+.auth-link i {
+	padding: 0 5px;
+	font-size: 20px;
+	color: #e01533;
+}
+
+.auth-link:hover {
+	color: #e01533;
+}
+
+.home{
+    padding-top: 8rem;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.home h3{
+    color:black;
+    font-size: 7.5vw;
+    text-transform: uppercase;
+}
+
+.home img{
+    width:100%;
+    margin:1rem 0;
+}
+.icons-container{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background: #e01533;
+}
+
+.icons-container .icons{
+    background:#ffff;
+    display: flex;
+    align-items: center;
+    box-shadow: black;
+    border-radius: .5rem;
+    padding:2rem;
+    gap:1.5rem;
+}
+
+.icons-container .icons i{
+    height:5rem;
+    width:5rem;
+    line-height:5rem;
+    font-size:2.5rem;
+    color:yellow;
+    background:pink;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.icons-container .icons .content h3{
+    font-size: 2.5rem;
+    color:black;
+}
+
+.icons-container .icons .content p{
+    font-size: 1.5rem;
+    color:black;
+}
+
+.icons-container .icons:hover{
+    background:pink;
+}
+
+.icons-container .icons:hover i{
+    background:#009dfe;
+}
+
+.icons-container .icons:hover .content h3{
+    color:#fff;
+}
+
+.icons-container .icons:hover .content p{
+    color:#eee;
+}
+.newsletter{
+    padding:20rem 10rem;
+    background: url(https://www.pngmart.com/files/22/Toyota-PNG-HD.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.newsletter h3{
+    font-size: 3rem;
+    color:red;
+}
+
+.newsletter p{
+    font-size: 1.5rem;
+    color:red;
+    padding:1rem 0;
+}
+
+.newsletter form{
+    max-width: 60rem;
+    height:5rem;
+    background:red;
+    border-radius: 5rem;
+    overflow:hidden;
+    display: flex;
+    margin:1rem auto;
+    box-shadow: var(--box-shadow);
+}
+
+.newsletter form input[type="email"]{
+    height: 100%;
+    width:100%;
+    padding:0 2rem;
+    font-size: 1.6rem;
+    color:var(--black);
+    text-transform: none;
+}
+
+.newsletter form input[type="submit"]{
+    height: 100%;
+    width:17rem;
+    font-size: 1.7rem;
+    color:var(--black);
+    background: var(--orangeclr);
+    cursor: pointer;
+    color: white;
+}
+
+.newsletter form input[type="submit"]:hover{
+    background: var(--anotherblue);
+}
