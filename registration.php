@@ -53,3 +53,20 @@
     
   </body>
 </html>
+
+<?php
+require 'config.php';
+if(isset($_POST["register"])){
+  $username = $_POST["username"];
+  $email = $_POST["email"];
+  $password = $_POST["password"];
+  $city = $_POST["city"];
+  $query = "INSERT INTO `lab_tb`(`email`, `username`, `password`,`City`) VALUES ('$email','$username','$password','$city')";
+  mysqli_query($conn, $query);
+  echo
+  "<script> alert('Registration Successful'); </script>";
+  
+
+  
+}
+?>
