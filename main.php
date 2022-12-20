@@ -30,7 +30,7 @@ require 'config.php';
 			<ul class="menu">
 				<li class="http://localhost:8886/firstpage.html"><a href="firstpage.html" class="nav-link">FirstPage</a></li>
 				<li class="nav-item"><a href="catalog.html" class="nav-link">Catalog</a></li>
-				<li class="nav-item"><a href="order.html" class="nav-link">Order</a></li>
+				<li class="nav-item"><a href="order.php" class="nav-link">Order</a></li>
 				<li class="nav-item"><a href="profile.php" class="nav-link">Profile</a></li>
 			</ul>
 		</div>
@@ -60,7 +60,7 @@ require 'config.php';
     
         <img data-speed="5" class="home-parallax" src="https://www.nicepng.com/png/full/45-459475_new-toyota-car-inventory-lineup-car.png" alt="">
     
-        <a class="nav-link" data-speed="7" href="#">explore cars</a>
+        <a class="nav-link" data-speed="7" href="catalog.html">explore cars</a>
     
     </section>
 
