@@ -28,7 +28,7 @@ require 'config.php';
 
 		<div class="nav-menu">
 			<ul class="menu">
-				<li class="nav-item"><a href="firstpage.html" class="nav-link">FirstPage</a></li>
+				<li class="http://localhost:8886/firstpage.html"><a href="firstpage.html" class="nav-link">FirstPage</a></li>
 				<li class="nav-item"><a href="catalog.html" class="nav-link">Catalog</a></li>
 				<li class="nav-item"><a href="order.html" class="nav-link">Order</a></li>
 				<li class="nav-item"><a href="profile.php" class="nav-link">Profile</a></li>
