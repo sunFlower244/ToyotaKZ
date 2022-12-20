@@ -1,0 +1,41 @@
+body {
+
+}
+
+.main {
+	background-color: aliceblue;
+	display: flex;
+	align-content: space-between;
+	align-items: center;
+}
+
+.info {
+	width: 30vw;
+	margin: 20px;
+}
+
+img {
+	width: 30vw;
+}
+
+h1 {
+	border-bottom: solid rgb(0, 0, 0);
+	padding: 0 5%;
+}
+
+p {
+	padding: 0 3%;
+}
+
+.button {
+	color: royalblue;
+	border: solid royalblue;
+	padding: 5px;
+	text-decoration: none;
+	border-radius: 25px;
+}
+
+.button:hover {
+	color: white;
+	background-color: royalblue;
+}

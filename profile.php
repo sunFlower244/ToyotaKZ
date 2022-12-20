@@ -5,6 +5,9 @@ require 'config.php';
   $result = mysqli_query($conn, "SELECT * FROM lab_tb");
   $row = mysqli_fetch_assoc($result);
 
+  $carorder = mysqli_query($conn, "SELECT * FROM cars");
+  $carrow = mysqli_fetch_assoc($carorder);
+
 
 ?>
 
@@ -62,7 +65,20 @@ require 'config.php';
 
               </form>
 
+              
+              
+
+
+
+
         </div>
+        <div>
+        <p><?php echo $carrow["model"]; ?></p>
+        <p><?php echo $carrow["color"]; ?></p>
+        <p><?php echo $carrow["comp"]; ?></p>
+
+        </div>
+
 
         <div class="social_media">
             <ul>
