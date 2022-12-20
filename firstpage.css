@@ -49,14 +49,14 @@ button{
     font-family: 'Roboto', sans-serif;
   
   
-  }
+}
   
 button:hover{
     background-color: rgb(72, 0, 0);
   }
 .logo{
     margin-right: auto;
-  }
+}
 
 .lastcontent{
     margin-top: -400px;
@@ -65,7 +65,7 @@ button:hover{
     text-align: center;
    
     position: relative;
-  }
+}
   
 .line{
     width: 1000px; 
@@ -77,4 +77,105 @@ button:hover{
   
 .ref{
     color:brown
+}
+
+.video{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.video .sli{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+  
+  
+.video ul{
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+  
+.video ul li{
+    list-style: none;
+    margin: 10px;
+}
+  
+  
+.video ul li video{
+    width: 202px;
+    transition: all 0.4s;
+}
+.video ul li video:hover{
+    transform: scale(1.2);
+}
+  
+video{
+    width: 100%;
+    height: 100%;
+ }
+  
+  
+@media(max-width: 768px){
+    .video{
+      width: 120%;
+      height: 80vh;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .line{
+      width: 700px; 
+      height: 3px;
+      background: red;
+      margin: 20px auto;
+      border-radius: 5px;
+    }
+  
+    button{
+      padding:8px 20px;
+      background-color: darkred;
+      border: none;
+      border-radius: 10px;
+      margin-left: 25px;
+      font-size: 26px;
+      text-decoration: none;
+      font-family: 'Kaushan Script', cursive;
+      font-family: 'Roboto', sans-serif;
+    
+    
+    }
+    
+  }
+  
+  
+@media(max-width: 425px){
+    .video{
+      width: 150%;
+      height: 80vh;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .line{
+      width: 500px; 
+      height: 3px;
+      background: red;
+      margin: 20px auto;
+      border-radius: 5px;
+    }
   }
