@@ -15,7 +15,7 @@ require 'config.php';
 <head>
 	<meta charset="UTF-8">
 	<title>CSS User Profile Card</title>
-	<link rel="stylesheet" href="fsc.css">
+	<link rel="stylesheet" href="profile.css">
 </head>
 <body>
 
