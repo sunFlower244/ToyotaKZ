@@ -28,10 +28,10 @@ require 'config.php';
 
 		<div class="nav-menu">
 			<ul class="menu">
-				<li class="nav-item"><a href="#" class="nav-link">Anuar</a></li>
-				<li class="nav-item"><a href="#" class="nav-link">Anuar</a></li>
-				<li class="nav-item"><a href="#" class="nav-link">Anuar</a></li>
-				<li class="nav-item"><a href="#" class="nav-link">Anuar</a></li>
+				<li class="nav-item"><a href="firstpage.html" class="nav-link">FirstPage</a></li>
+				<li class="nav-item"><a href="catalog.html" class="nav-link">Catalog</a></li>
+				<li class="nav-item"><a href="order.html" class="nav-link">Order</a></li>
+				<li class="nav-item"><a href="profile.php" class="nav-link">Profile</a></li>
 			</ul>
 		</div>
 
@@ -48,7 +48,7 @@ require 'config.php';
 					<a href="profile.php" class="auth-link"><?php echo $row["username"];?></a>
 				</div>
 				<div class="car">
-					<a href="logout.php" class="auth-link">LogOut</a>
+					<a href="exit.php" class="auth-link">LogOut</a>
 				</div>
 			</div>
 		</div>

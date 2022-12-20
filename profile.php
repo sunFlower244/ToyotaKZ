@@ -24,10 +24,10 @@ require 'config.php';
         <img src="https://i.imgur.com/cMy8V5j.png" 
         alt="user" width="100">
         <h4><?php echo $row["username"]; ?></h4>
-         <a href="default.asp" target="_blank">Home</a>
-         <a href="default.asp" target="_blank">Catalog</a>
-         <a href="default.asp" target="_blank">Order</a>
-         <a href="default.asp" target="_blank">Searh</a>
+         <a href="main.php" target="_blank">Home</a>
+         <a href="catalog.html" target="_blank">Catalog</a>
+         <a href="order.php" target="_blank">Order</a>
+         <a href="" target="_blank">Searh</a>
     </div>
     <div class="right">
         <div class="info">
