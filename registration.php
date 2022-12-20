@@ -15,7 +15,7 @@
     <div class="container">
       <h1 class="form-title">Registration</h1>
 
-      <form action="1.php" method="post">
+      <form action="registration.php" method="post">
 
         <div class="main-user-info">
           <div class="user-input-box">
