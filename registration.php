@@ -64,7 +64,8 @@ if(isset($_POST["register"])){
   $query = "INSERT INTO `lab_tb`(`email`, `username`, `password`,`City`) VALUES ('$email','$username','$password','$city')";
   mysqli_query($conn, $query);
   echo
-  "<script> alert('Registration Successful'); </script>";
+  "<script> alert('Successful,now u can login'); </script>";
+  header("Location: firstpage.html");
   
 
   

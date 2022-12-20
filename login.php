@@ -16,7 +16,7 @@
 <div class="container">
       <h1 class="form-title">Login</h1>
 
-      <form action="2.php" method="post">
+      <form action="login.php" method="post">
 
         <div class="main-user-info">
           <div class="user-input-box">
@@ -42,3 +42,23 @@
     
 </body>
 </html>
+
+<?php
+require 'config.php';
+
+if(isset($_POST["login"])){
+  $email = $_POST["email"];
+  $password = $_POST["password"];
+  $result = mysqli_query($conn, "SELECT * FROM lab_tb WHERE  email = '$email'");
+  $row = mysqli_fetch_assoc($result);
+  if(mysqli_num_rows($result) > 0){
+    if($password == $row['password']){
+      header("Location: main.php");
+    }
+    else{
+      echo
+      "<script> alert('Password Incorrect'); </script>";
+    }
+  }
+}
+?>
