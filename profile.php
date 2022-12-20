@@ -27,7 +27,7 @@ require 'config.php';
          <a href="main.php" target="_blank">Home</a>
          <a href="catalog.html" target="_blank">Catalog</a>
          <a href="order.php" target="_blank">Order</a>
-         <a href="" target="_blank">Searh</a>
+         <a href="main.php" target="_blank">Search</a>
     </div>
     <div class="right">
         <div class="info">
@@ -53,8 +53,8 @@ require 'config.php';
                  <input type="text" id="lname" name="lname"><br>
                 <label for="username">Username:</label><br>
                 <input type="text" id="username" name="username"><br>
-                <label for="pwd">Password:</label><br>
-                <input type="password" id="pwd" name="pwd"><br>
+                <label for="pwd">Gender:</label><br>
+                <input type="text" id="pwd" name="pwd"><br>
                 <label for="email">Email:</label><br>
                 <input type="text" id="email" name="email"><br>
                 <label for="pnum">Phone:</label><br>
